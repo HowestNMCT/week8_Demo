@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PCL_DepServ"
+             x:Class="PCL_DepServ.MainPage">
+    <StackLayout VerticalOptions="Center" Margin="13">
+        <Label Text="Model:" FontAttributes="Bold" />
+        <Label x:Name="lblModel" FontSize="Large" />
+        <Label Text="Version:" FontAttributes="Bold" />
+        <Label x:Name="lblVersion" FontSize="Large" />
+    </StackLayout>
+</ContentPage>
